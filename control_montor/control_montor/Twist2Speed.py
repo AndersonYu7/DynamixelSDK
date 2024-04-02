@@ -29,8 +29,8 @@ class TwistToOKPublisherNode:
 
         speed_msg = SetVelocityDual()
 
-        speed_msg.motorspeed1 = speed_wish_left
-        speed_msg.motorspeed2 = speed_wish_right
+        speed_msg.motorspeed1 = -speed_wish_right
+        speed_msg.motorspeed2 = -speed_wish_left
 
         self.publisher.publish(speed_msg)
 

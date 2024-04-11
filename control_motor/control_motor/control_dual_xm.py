@@ -16,7 +16,7 @@ ADDR_PRESENT_VELOCITY = 128
 PROTOCOL_VERSION = 2.0  # Default Protocol version of DYNAMIXEL X series.
 # BAUDRATE = 57600  # Default Baudrate of DYNAMIXEL X series
 BAUDRATE = 1000000
-DEVICE_NAME = "/dev/ttyUSB0"  # [Linux]: "/dev/ttyUSB*", [Windows]: "COM*"
+DEVICE_NAME = "/dev/ttyUSB1"  # [Linux]: "/dev/ttyUSB*", [Windows]: "COM*"
 
 # COMM_SUCCESS                = 0                             # Communication Success result value
 # COMM_TX_FAIL                = -1001                         # Communication Tx Failed

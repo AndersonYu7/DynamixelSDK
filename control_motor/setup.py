@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-package_name = 'control_montor'
+package_name = 'control_motor'
 
 setup(
     name=package_name,
@@ -25,9 +25,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'control_dual = control_Motor.control_dual:main',
-            'control_dual_old = control_Motor.control_dual_old:main',
-            'Twist2Speed = control_Motor.Twist2Speed:main',
+            'control_dual_xl = control_motor.control_dual_xl:main',
+            'control_dual_xm = control_motor.control_dual_xm:main',
+            'Twist2Speed = control_motor.Twist2Speed:main',
         ],
     },
 )

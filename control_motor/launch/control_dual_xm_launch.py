@@ -4,13 +4,13 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='Control_Motor',
+            package='control_motor',
             namespace='',
-            executable='control_dual',
+            executable='control_dual_xm',
             name='Control_motor'
         ),
         Node(
-            package='Control_Motor',
+            package='control_motor',
             namespace='',
             executable='Twist2Speed',
             name='Twist2Speed'

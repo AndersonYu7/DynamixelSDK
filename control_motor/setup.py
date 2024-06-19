@@ -25,8 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'control_dual_xl = control_motor.control_dual_xl:main',
-            'control_dual_xm = control_motor.control_dual_xm:main',
+            'control_dual = control_motor.control_dual:main',
             'Twist2Speed = control_motor.Twist2Speed:main',
         ],
     },

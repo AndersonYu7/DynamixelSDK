@@ -6,7 +6,7 @@ def generate_launch_description():
         Node(
             package='control_motor',
             namespace='',
-            executable='control_dual_xm',
+            executable='control_dual',
             name='Control_motor'
         ),
         Node(
